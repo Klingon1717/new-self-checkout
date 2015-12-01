@@ -12,7 +12,8 @@ console.log(priceThree + ' ' + quantThree);
 var itemThree =(priceThree * quantThree);
 
 var sub = itemOne + itemTwo + itemThree;
-console.log(sub);
+console.log('subtotal:',sub);
 var tax = Math.round(0.055 * 100)/100;
+console.log('tax:', tax);
 var total =Math.round(sub * 1.055 *100)/100;
-console.log('\$' + total);
+console.log('total:','\$' + total);
